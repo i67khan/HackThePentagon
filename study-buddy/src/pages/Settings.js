@@ -1,5 +1,5 @@
 import '../styles/Settings.css';
-import Stock from "../Stock-guy.png";
+import Stock from "../usermans.jpg";
 function Settings() {
     return (
         <div className="App">

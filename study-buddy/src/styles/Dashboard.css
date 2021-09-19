@@ -22,7 +22,7 @@
     font-size: 36px;
     line-height: 45px;
     color: #FFFFFF;
-    border: 1px solid #000000;
+    border: 0px solid #000000;
 }
 
 .Profile {
@@ -46,6 +46,7 @@
     font-size: 36px;
     line-height: 45px;
     color: #FFFFFF;
+    border-color: transparent;
 }
 
 .Course {

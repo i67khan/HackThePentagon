@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import '../styles/Dashboard.css';
 import API from '../MapsAPI.PNG';
-import Stock from '../Stock-guy.png';
+import Stock from '../usermans.jpg';
 class Dashboard extends Component {
     constructor(props) {
         super(props);
@@ -10,7 +10,7 @@ class Dashboard extends Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <body className="Welcome-dash">Welcom Ibrahim,</body>
+                    <body className="Welcome-dash">Welcome Christine,</body>
                     <body className="You-dash">You are taking</body>
                     <div className="Course">
                         <body className="CS245">CS245</body>
