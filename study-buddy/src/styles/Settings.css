@@ -10,4 +10,63 @@
     overflow: hidden;
 }
 
-  
+.Profile-Pic {
+    position: absolute;
+    width: 378px;
+    height: 378px;
+    left: 109px;
+    top: 133px;
+    border-radius: 50%;
+}
+
+.Upload-doc {
+    position: absolute;
+    width: 576px;
+    height: 69px;
+    left: 600px;
+    top: 259px;
+    background: #C4C4C4;
+}
+
+.Up-label {
+    position: absolute;
+    width: 475px;
+    height: 45px;
+    left: 20px;
+    top: 15px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+    z-index: 1;
+}
+
+.Submit {
+    position: absolute;
+    width: 324px;
+    height: 45px;
+    left: 20px;
+    top: 175px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.Me {
+    position: absolute;
+    width: 324px;
+    height: 45px;
+    left: 20px;
+    top: 100px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+}

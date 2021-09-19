@@ -103,7 +103,7 @@
     left: 926px;
     top: 478px;
   
-    font-family: 'Open Sans', sans-serif;
+    font-family:  'Courier New', Courier, monospace;
     font-style: normal;
     font-weight: lighter;
     font-size: 36px;
@@ -125,10 +125,11 @@
   }
   
   .Button-label {
-    left: 926px;
-    top: 617px;
+    
+    left: 70px;
+    top: 25px;
   
-    font-family: 'Open Sans', sans-serif;
+    font-family:  'Courier New', Courier, monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
