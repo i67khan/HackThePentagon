@@ -7,6 +7,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    overflow: hidden;
 }
 
 .Welcome-dash {
@@ -24,6 +25,15 @@
     border: 1px solid #000000;
 }
 
+.Profile {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 450px;
+    top:75px;
+    border-radius: 50%;
+    overflow: hidden;
+}
 .You-dash {
     position: absolute;
     width: 324px;
@@ -87,4 +97,13 @@
     line-height: 45px;
     text-align: center;
     color: #000000;
+}
+
+.Pic {
+    position: absolute;
+    width: 1204px;
+    height: 810px;
+    left: 625px;
+    top: 85px;
+    overflow: hidden;
 }

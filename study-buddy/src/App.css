@@ -1,3 +1,7 @@
+.App {
+overflow-y: hidden;
+overflow-x: hidden;
+}
 
 .App-header {
   background-color: #143059;
@@ -8,6 +12,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -124,8 +129,9 @@
 }
 
 .Button-label {
-  left: 926px;
-  top: 617px;
+  position: absolute;
+  left: 16px;
+  top: 10px;
 
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
