@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import logo from './studyBuddyLogo.png';
 import './App.css';
 import config from './config'
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import LandingPage from './pages/LandingPage';
 
 class App extends Component {
 

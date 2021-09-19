@@ -1,12 +1,13 @@
 import React from 'react';
 import '../styles/LandingPage.css';
 import logo from '../studyBuddyLogo.png';
-import { Link, Switch, Route } from 'react-router-dom';
+import { Link, Switch, Route,BrowserRouter as Router } from 'react-router-dom';
 import SignUp from './SignUp';
 import Login from './Login';
 
 function LandingPage() {
     return (
+        <Router>
         <header className="App-header">
             <div className='Images'>
                 <img src={logo} className="App-logo" alt="logo" />
@@ -40,6 +41,7 @@ function LandingPage() {
             </Switch>
 
         </header>
+        </Router>
     );
 }
 
