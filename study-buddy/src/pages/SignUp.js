@@ -19,7 +19,7 @@ function SignUp() {
                         <body className="Name">N: Your Name</body>
                     </div>
                     <div className="fb-2">
-                        <body className="Email">E: Email</body>
+             ``           <body className="Email">E: Email</body>
                     </div>
                     <div className="fb-3">
                         <body className="Password">P: Password</body>
