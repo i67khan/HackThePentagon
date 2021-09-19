@@ -1,10 +1,7 @@
 import React, {Component} from 'react';
 import logo from './studyBuddyLogo.png';
 import './App.css';
-import Login from './pages/Login';
-import SignUp from './pages/SignUp';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import LandingPage from './pages/LandingPage';
+import config from './config'
 
 class App extends Component {
 
