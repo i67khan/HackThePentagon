@@ -52,6 +52,7 @@
     left: 1549px;
     top: 753px;
     background: #E5D4ED;
+    border-radius: 50%;
 }
 
 .Sign-up-box {
@@ -71,25 +72,24 @@
     position: absolute;
     width: 417px;
     height: 44px;
-    left: 762px;
-    top: 284px;
-    font-family: Source Code Pro;
+    left: 120px;
+    top: 110px;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 45px;
     text-align: center;
     color: #000000;
-    border: 1px solid #1D7874;
 }
 
 .Sub-heading {
     position: absolute;
     width: 345px;
     height: 18px;
-    left: 798px;
-    top: 351px;
-    font-family: Source Code Pro;
+    left: 156px;
+    top: 177px;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -103,8 +103,8 @@
     position: absolute;
     width: 417px;
     height: 60px;
-    left: 762px;
-    top: 414px;
+    left: 120px;
+    top: 240px;
     background: #E5D4ED;
     border-radius: 25px;
 }
@@ -113,8 +113,8 @@
     position: absolute;
     width: 417px;
     height: 60px;
-    left: 762px;
-    top: 497px;
+    left: 120px;
+    top: 323px;
     background: #E5D4ED;
     border-radius: 25px;
 }
@@ -123,18 +123,18 @@
     position: absolute;
     width: 417px;
     height: 60px;
-    left: 762px;
-    top: 580px;
+    left: 120px;
+    top: 406px;
     background: #E5D4ED;
     border-radius: 25px;
 }
 
 .fb-4 {
-    position: absolute;
+    position: relative;
     width: 417px;
     height: 60px;
-    left: 762px;
-    top: 663px;
+    left: 120px;
+    top: 489px;
     background: #E5D4ED;
     border-radius: 25px;
 }
@@ -143,9 +143,9 @@
     position: absolute;
     width: 417px;
     height: 50px;
-    left: 762px;
-    top: 760px;
-    font-family: Source Code Pro;
+    left: 120px;
+    top: 586px;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -154,4 +154,76 @@
     background: #1D7874;
     border-radius: 25px;
     text-align: center
+}
+
+.Name {
+    position: absolute;
+    width: 300px;
+    height: 23px;
+    left: 30px;
+    top: 20px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+    z-index: 1;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.Email {
+    position: absolute;
+    width: 300px;
+    height: 23px;
+    left: 30px;
+    top: 20px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+    z-index: 1;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.Password {
+    position: absolute;
+    width: 300px;
+    height: 23px;
+    left: 30px;
+    top: 20px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+    z-index: 1;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.School {
+    position: absolute;
+    width: 300px;
+    height: 23px;
+    left: 30px;
+    top: 20px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+    z-index: 1;
+    background-color: transparent;
+    border-color: transparent;
 }
