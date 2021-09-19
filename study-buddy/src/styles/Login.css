@@ -9,4 +9,108 @@
     color: white;
 }
 
-  
+.Login-box {
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    left: 620px;
+    top: 150px;
+    background: #E5D4ED;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 17px 18px 10px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.Welcome {
+    position: absolute;
+    width: 417px;
+    height: 44px;
+    left: 130px;
+    top: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    border: 0px solid #1D7874;
+    z-index: 1;
+}
+
+.Question {
+    position: absolute;
+    width: 300px;
+    height: 18px;
+    left: 190px;
+    top: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.f1 {
+    position: absolute;
+    width: 417px;
+    height: 60px;
+    left: 150px;
+    top: 328px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+.f2 {
+    position: absolute;
+    width: 417px;
+    height: 60px;
+    left: 150px;
+    top: 428px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+.Log-in-button {
+    position: absolute;
+    width: 417px;
+    height: 50px;
+    left: 150px;
+    top: 528px;
+    background: #FBA919;
+    border-radius: 25px;
+}
+
+.Email {
+    position: absolute;
+    width: 22px;
+    height: 23px;
+    left: 781px;
+    top: 496px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.Password {
+    position: absolute;
+    width: 22px;
+    height: 23px;
+    left: 781px;
+    top: 596px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+}

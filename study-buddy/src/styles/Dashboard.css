@@ -9,4 +9,82 @@
     color: white;
 }
 
-  
+.Welcome-dash {
+    position: absolute;
+    width: 324px;
+    height: 45px;
+    left: 116px;
+    top: 93px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.You-dash {
+    position: absolute;
+    width: 324px;
+    height: 45px;
+    left: 116px;
+    top: 192px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.Course {
+    position: absolute;
+    width: 109px;
+    height: 46px;
+    left: 123px;
+    top: 278px;
+    background: #fa507d;
+    border-radius: 25px;
+}
+
+.CS245 {
+    position: absolute;
+    width: 72px;
+    height: 30px;
+    left: 20px;
+    top: 10px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Add {
+    position: absolute;
+    width: 49px;
+    height: 44px;
+    left: 264px;
+    top: 280px;
+    background: #C4C4C4;
+}
+
+.Plus {
+    position: absolute;
+    width: 49px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+}
