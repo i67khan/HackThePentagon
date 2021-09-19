@@ -1,5 +1,6 @@
 import logo from './studyBuddyLogo.png';
 import './App.css';
+import config from './config'
 
 function App() {
   return (
