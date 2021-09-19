@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
-import logo from './studyBuddyLogo.png';
 import './App.css';
-import config from './config'
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
+import Dashboard from './pages/Dashboard'
+import Login from './pages/Login';
+import Settings from './pages/Settings';
+import SignUp from './pages/SignUp';
+import Socials from './pages/Socials';
 
 class App extends Component {
 
@@ -16,11 +19,12 @@ class App extends Component {
   return (
     <div className="App">
       <Router>
-        <Switch>
-          <Route exact path="/">
-            <LandingPage />
-          </Route>
-        </Switch>
+      <Route exact path="/" component={LandingPage} />
+      <Route exact path="/dashboard" component={Dashboard} />
+      <Route exact path="/login" component={Login} />
+      <Route exact path="/signup" component={SignUp} />
+      <Route exact path="/settings" component={Settings} />
+      <Route exact path="/socials" component={Socials} />
       </Router>
     </div>
   );

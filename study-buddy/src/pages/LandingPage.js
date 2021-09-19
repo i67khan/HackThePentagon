@@ -1,48 +1,43 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../styles/LandingPage.css';
 import logo from '../studyBuddyLogo.png';
-import { Link, Switch, Route,BrowserRouter as Router } from 'react-router-dom';
-import SignUp from './SignUp';
-import Login from './Login';
 
-function LandingPage() {
-    return (
-        <Router>
-        <header className="App-header">
-            <div className='Images'>
-                <img src={logo} className="App-logo" alt="logo" />
-                <div className="Line-1" />
-                <div className='Ellipses'>
-                    <ellipse className="Ellipse-1" />
-                    <ellipse className="Ellipse-2" />
-                    <ellipse className="Ellipse-3" />
-                    <ellipse className="Ellipse-4" />
-                </div>
-            </div>
-            <div className='Titles'>
-                <body className="Study-buddy">Study Buddy</body>
-                <body className="Message">Connect with students who are taking the same courses</body>
-            </div>
-            <div className='Buttons'>
 
-                <div className="Sign-up">
-                    <Link to="/signup" className="Button-label">Sign Up</Link>
-                </div>
-                    <Link to="/login" className="Login">Login</Link>
-            </div>
+class LandingPage extends Component {
+    
+    constructor(props) {
+        super(props);   
+        this.state = {};
+      }
 
-            <Switch>
-                <Route exact path="/signup">
-                    <SignUp />
-                </Route>
-                <Route exact path="/login">
-                    <Login />
-                </Route>
-            </Switch>
+    render() {
+        return (
+                <header className="App-header">
+                    <div className='Images'>
+                        <img src={logo} className="App-logo" alt="logo" />
+                        <div className="Line-1" />
+                        <div className='Ellipses'>
+                            <ellipse className="Ellipses-1" />
+                            <ellipse className="Ellipses-2" />
+                            <ellipse className="Ellipses-3" />
+                            <ellipse className="Ellipses-4" />
+                        </div>
+                    </div>
+                    <div className='Titles'>
+                        <body className="Study-buddy">Study Buddy</body>
+                        <body className="Message">Connect with students who are taking the same courses</body>
+                    </div>
+                    <div className='Buttons'>
 
-        </header>
-        </Router>
-    );
+                        <div className="Sign-up">
+                            <a href="/signup" className="Button-label">Sign Up</a>
+                        </div>
+                        <a href="/login" className="Login">Login</a>
+                    </div>               
+
+                </header>
+        );
+    }
 }
 
 export default LandingPage;

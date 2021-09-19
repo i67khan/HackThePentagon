@@ -35,7 +35,7 @@
   .Ellipses {
     overflow: hidden;
   }
-  .Ellipse-1 {
+  .Ellipses-1 {
     position: absolute;
     width: 73px;
     height: 73px;
@@ -46,7 +46,7 @@
     background: #89CE94;
   }
   
-  .Ellipse-2 {
+  .Ellipses-2 {
     position: absolute;
     width: 115px;
     height: 115px;
@@ -57,7 +57,7 @@
     background: #89CE94;
   }
   
-  .Ellipse-3 {
+  .Ellipses-3 {
     position: absolute;
     width: 365px;
     height: 365px;
@@ -67,7 +67,7 @@
     overflow:hidden;
     background: #89CE94;
   }
-  .Ellipse-4 {  
+  .Ellipses-4 {  
     position: absolute;
     width: 262px;
     height: 262px;
