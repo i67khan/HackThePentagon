@@ -20,6 +20,7 @@ class Dashboard extends Component {
                         <body className="Plus">+</body>
                     </div>
                     <img className="Pic" src={API}></img>
+                    <body className="Remember">You can access your social information by clicking on your profile.</body>
                 </header>
             </div>
         );

@@ -4,14 +4,15 @@ import logo from '../studyBuddyLogo.png';
 
 
 class LandingPage extends Component {
-    
+
     constructor(props) {
-        super(props);   
+        super(props);
         this.state = {};
-      }
+    }
 
     render() {
         return (
+            <div className="App">
                 <header className="App-header">
                     <div className='Images'>
                         <img src={logo} className="App-logo" alt="logo" />
@@ -33,9 +34,9 @@ class LandingPage extends Component {
                             <a href="/signup" className="Button-label">Sign Up</a>
                         </div>
                         <a href="/login" className="Login">Login</a>
-                    </div>               
-
+                    </div>
                 </header>
+            </div>
         );
     }
 }

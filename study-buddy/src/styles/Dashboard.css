@@ -16,7 +16,7 @@
     height: 45px;
     left: 116px;
     top: 93px;
-    font-family: Source Code Pro;
+    font-family: 'Courier New', Courier, monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -40,7 +40,7 @@
     height: 45px;
     left: 116px;
     top: 192px;
-    font-family: Source Code Pro;
+    font-family: 'Courier New', Courier, monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -65,7 +65,7 @@
     height: 30px;
     left: 20px;
     top: 10px;
-    font-family: Source Code Pro;
+    font-family: 'Courier New', Courier, monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -91,7 +91,7 @@
     height: 44px;
     left: 0px;
     top: 0px;
-    font-family: Source Code Pro;
+    font-family: 'Courier New', Courier, monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -107,4 +107,12 @@
     left: 625px;
     top: 85px;
     overflow: hidden;
+}
+
+.Remember {
+    position: absolute;
+    width: 400px;
+    font-size: 24px;
+    left: 116px;
+    top: 800px;
 }
