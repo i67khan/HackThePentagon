@@ -1,32 +1,31 @@
+import React, {Component} from 'react';
 import logo from './studyBuddyLogo.png';
 import './App.css';
+import Login from './pages/Login';
+import SignUp from './pages/SignUp';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import LandingPage from './pages/LandingPage';
 
-function App() {
+class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
   return (
-    <div className="App">      
-      <header className="App-header">
-        <div className='Images'>
-          <img src={logo} className="App-logo" alt="logo" />
-          <div className="Line-1"/>
-          <div className='Ellipses'>
-            <ellipse className="Ellipse-1" />
-            <ellipse className="Ellipse-2" />
-            <ellipse className="Ellipse-3" />
-            <ellipse className="Ellipse-4" /> 
-          </div>
-        </div>
-        <div className='Titles'>
-          <body className="Study-buddy">Study Buddy</body>
-          <body className="Message">Connect with students who are taking the same courses</body>
-        </div>
-        <div classNmae='Buttons'>
-          <div className="button-container">
-            <button className="Sign-up">Sign Up </button>
-          </div>
-        </div>
-      </header>
+    <div className="App">
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <LandingPage />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
+}
 }
 
 export default App;

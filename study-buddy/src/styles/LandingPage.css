@@ -1,0 +1,160 @@
+
+.App-header {
+    background-color: #143059;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-logo {
+    position: absolute;
+    width: 712px;
+    height: 1024px;
+    left: 129px;
+    top: 56px;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .Line-1 {
+    position: absolute;
+    width: 712px;
+    height: 1024px;
+    left: 0px;
+    top: -50px;
+    border-top: 5px solid #E5D4ED;
+    transform: rotate(90deg);
+  }
+  
+  .Ellipses {
+    overflow: hidden;
+  }
+  .Ellipse-1 {
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: 116px;
+    top: 253px;
+    border-radius: 50%;
+    overflow:hidden;
+    background: #89CE94;
+  }
+  
+  .Ellipse-2 {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 1790px;
+    top: 677px;
+    border-radius: 50%;
+    overflow:hidden;
+    background: #89CE94;
+  }
+  
+  .Ellipse-3 {
+    position: absolute;
+    width: 365px;
+    height: 365px;
+    left: 1586px;
+    top: 836px;
+    border-radius: 50%;
+    overflow:hidden;
+    background: #89CE94;
+  }
+  .Ellipse-4 {  
+    position: absolute;
+    width: 262px;
+    height: 262px;
+    left: -44px;
+    top: -53px;
+    border-radius: 50%;
+    overflow:hidden;
+    background: #89CE94;  
+  }
+  
+  .Study-buddy {
+    position: absolute;
+    width: 600px;
+    height: 120px;
+    left: 926px;
+    top: 326px;
+  
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 120px;
+    color: #FBA919;
+  
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .Message {
+    position: absolute;
+    width: 648px;
+    height: 90px;
+    left: 926px;
+    top: 478px;
+  
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 36px;
+    line-height: 45px;
+  
+    color: #FFFFFF;
+  }
+  
+  .Sign-up {
+    position: absolute;
+    width: 307px;
+    height: 95px;
+    left: 926px;
+    top: 617px;
+    
+    background: #1D7874;
+    border-radius: 20px;
+    box-shadow: 5px 10px #0f2443;
+  }
+  
+  .Button-label {
+    left: 926px;
+    top: 617px;
+  
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    
+    color: #FFFFFF;
+    text-shadow: 7px 8px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .Login {
+    position: absolute;
+    width: 96px;
+    height: 40px;
+    left: 1263px;
+    top: 651px;
+  
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #143059;
+    color: #FFFFFF;
+  }
+  
+  a:link {
+    text-decoration: none; 
+  }

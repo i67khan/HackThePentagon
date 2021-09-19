@@ -1,0 +1,157 @@
+.App-header {
+    background-color: #143059;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Ellipse-1 {
+    position: absolute;
+    width: 364px;
+    height: 364px;
+    left: -99px;
+    top: -89px;
+    background: #E5D4ED;
+}
+
+.Ellipse-2 {
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 340px;
+    top: 78px;
+    background: #E5D4ED;
+}
+
+.Ellipse-3 {
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    left: 460px;
+    top: -93px;
+    background: #E5D4ED;
+}
+
+.Ellipse-4 {
+    position: absolute;
+    width: 174px;
+    height: 174px;
+    left: 1604px;
+    top: 540px;
+    background: #E5D4ED;
+}
+
+.Ellipse-5 {
+    position: absolute;
+    width: 592px;
+    height: 592px;
+    left: 1549px;
+    top: 753px;
+    background: #E5D4ED;
+}
+
+.Sign-up-box {
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    left: 631px;
+    top: 200px;
+    background: #89CE94;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 17px 18px 10px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.Create-acc {
+    position: absolute;
+    width: 417px;
+    height: 44px;
+    left: 762px;
+    top: 284px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    border: 1px solid #1D7874;
+}
+
+.Sub-heading {
+    position: absolute;
+    width: 345px;
+    height: 18px;
+    left: 798px;
+    top: 351px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.fb-1 {
+    position: absolute;
+    width: 417px;
+    height: 60px;
+    left: 762px;
+    top: 414px;
+    background: #E5D4ED;
+    border-radius: 25px;
+}
+
+.fb-2 {
+    position: absolute;
+    width: 417px;
+    height: 60px;
+    left: 762px;
+    top: 497px;
+    background: #E5D4ED;
+    border-radius: 25px;
+}
+
+.fb-3 {
+    position: absolute;
+    width: 417px;
+    height: 60px;
+    left: 762px;
+    top: 580px;
+    background: #E5D4ED;
+    border-radius: 25px;
+}
+
+.fb-4 {
+    position: absolute;
+    width: 417px;
+    height: 60px;
+    left: 762px;
+    top: 663px;
+    background: #E5D4ED;
+    border-radius: 25px;
+}
+
+.Sign-up-button {
+    position: absolute;
+    width: 417px;
+    height: 50px;
+    left: 762px;
+    top: 760px;
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+    background: #1D7874;
+    border-radius: 25px;
+    text-align: center
+}
