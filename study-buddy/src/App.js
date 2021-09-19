@@ -1,22 +1,29 @@
-import logo from './logo.svg';
+import logo from './studyBuddyLogo.png';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">      
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className='Images'>
+          <img src={logo} className="App-logo" alt="logo" />
+          <div className="Line-1"/>
+          <div className='Ellipses'>
+            <ellipse className="Ellipse-1" />
+            <ellipse className="Ellipse-2" />
+            <ellipse className="Ellipse-3" />
+            <ellipse className="Ellipse-4" /> 
+          </div>
+        </div>
+        <div className='Titles'>
+          <body className="Study-buddy">Study Buddy</body>
+          <body className="Message">Connect with students who are taking the same courses</body>
+        </div>
+        <div classNmae='Buttons'>
+          <div className="button-container">
+            <button className="Sign-up">Sign Up </button>
+          </div>
+        </div>
       </header>
     </div>
   );
