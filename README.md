@@ -16,5 +16,5 @@ Finally you can run the app by executing
 ```
 npm start
 ```
-The app will boot up automaticall onto localhose:3030.
+The app will boot up automaticall onto localhost:3000.
 Enjoy Exploring the App!
